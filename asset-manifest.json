@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WebGlitch/static/css/main.e0ea6edc.css",
+    "main.css": "/WebGlitch/static/css/main.56a85642.css",
     "main.js": "/WebGlitch/static/js/main.dea95a77.js",
     "static/js/453.8ab44547.chunk.js": "/WebGlitch/static/js/453.8ab44547.chunk.js",
     "static/media/fa-solid-900.ttf": "/WebGlitch/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
@@ -12,12 +12,12 @@
     "static/media/fa-v4compatibility.ttf": "/WebGlitch/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/WebGlitch/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/WebGlitch/index.html",
-    "main.e0ea6edc.css.map": "/WebGlitch/static/css/main.e0ea6edc.css.map",
+    "main.56a85642.css.map": "/WebGlitch/static/css/main.56a85642.css.map",
     "main.dea95a77.js.map": "/WebGlitch/static/js/main.dea95a77.js.map",
     "453.8ab44547.chunk.js.map": "/WebGlitch/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0ea6edc.css",
+    "static/css/main.56a85642.css",
     "static/js/main.dea95a77.js"
   ]
 }

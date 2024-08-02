@@ -1,0 +1,164 @@
+/* .Team-container {
+  padding: 150px;
+  background-color: #2c2c2c;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Team-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.Team-subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.Team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Team-card {
+  background-color: #1c1c1c;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+.Team-card i {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.Team-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Team-card p {
+  font-size: 16px;
+}
+ */
+
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Team-container {
+  padding: 150px;
+  background-color: #2c2c2c;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Team-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.Team-subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.Team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Team-card {
+  background-color: #1c1c1c;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+.Team-card i {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.Team-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Team-card p {
+  font-size: 16px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .Team-container {
+    padding: 50px;
+  }
+
+  .Team-title {
+    font-size: 28px;
+  }
+
+  .Team-subtitle {
+    font-size: 16px;
+  }
+
+  .Team-card {
+    width: calc(50% - 20px);
+    margin: 10px 5px;
+  }
+
+  .Team-card h3 {
+    font-size: 20px;
+  }
+
+  .Team-card p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Team-container {
+    padding: 30px;
+  }
+
+  .Team-title {
+    font-size: 24px;
+  }
+
+  .Team-subtitle {
+    font-size: 14px;
+  }
+
+  .Team-card {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+  }
+
+  .Team-card h3 {
+    font-size: 18px;
+  }
+
+  .Team-card p {
+    font-size: 12px;
+  }
+}

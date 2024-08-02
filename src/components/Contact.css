@@ -1,0 +1,68 @@
+/* .Contact-container {
+  padding: 150px;
+  background-color: #1c1c1c;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Contact-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.Contact-subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+ */
+
+.Contact-container {
+  padding: 10% 5%;
+  background-color: #1c1c1c;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Contact-title {
+  font-size: 2vw; /* Adjusts font size based on viewport width */
+  margin-bottom: 0.5vw;
+}
+
+.Contact-subtitle {
+  font-size: 1vw; /* Adjusts font size based on viewport width */
+  margin-bottom: 5vw;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .Contact-container {
+    padding: 5% 3%;
+  }
+
+  .Contact-title {
+    font-size: 8vw;
+    margin-bottom: 3vw;
+  }
+
+  .Contact-subtitle {
+    font-size: 4vw;
+    margin-bottom: 6vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .Contact-container {
+    padding: 4% 2%;
+  }
+
+  .Contact-title {
+    font-size: 10vw;
+    margin-bottom: 4vw;
+  }
+
+  .Contact-subtitle {
+    font-size: 5vw;
+    margin-bottom: 7vw;
+  }
+}

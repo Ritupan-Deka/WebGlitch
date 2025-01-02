@@ -11,19 +11,13 @@ const Footer = () => {
     return(
     <div className="Footer-container">
         <div className="Footer-content">
-            {/* <div className="Footer-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
-            </div> */}
             <div className="Footer-credit">
                 &copy; {currentYear} WebGlitch. All rights reserved.
             </div>
         </div>
-        <button id="scroll-to-top" style={{ display: 'none' }}>
-            &#8593; Top
-        </button>
+        <div id="scroll-to-top" >
+           <a href="#home">&#8593;</a>
+        </div>
     </div>
   );
 };

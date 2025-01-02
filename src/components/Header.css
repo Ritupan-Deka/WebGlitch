@@ -40,8 +40,6 @@ nav ul li a {
   font-size: 16px;
 } */
 
-
-
 /* Reset */
 * {
   margin: 0;
@@ -51,22 +49,42 @@ nav ul li a {
 
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
   position: fixed;
+  /* margin-top: 2rem; */
   top: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color:rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   z-index: 1000;
 }
 
 .logo {
   display: flex;
+  align-items: center;
+}
+
+
+.logo > a > img {
+  mix-blend-mode:darken;
+  background-color: transparent;
+  height: 6rem;
+  /* width: 5rem; */
+}
+.logo > a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+  /* font-weight: bold; */
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -135,4 +153,3 @@ nav ul li a {
     font-size: 12px;
   }
 }
-

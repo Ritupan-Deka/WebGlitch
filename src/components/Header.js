@@ -1,11 +1,15 @@
 import React from 'react';
 import './Header.css';
+import logo from '../webglitch.png';
 
 function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <span className="logo-text">WebGlitch</span>
+        <a href="#home">
+          <img src={logo} alt="Logo" className="logo-image" />
+          <span className="logo-text">WebGlitch</span>
+        </a>
       </div>
       <nav>
         <ul>

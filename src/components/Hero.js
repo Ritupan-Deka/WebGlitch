@@ -13,9 +13,9 @@ function Hero() {
           <button className="btn btn-secondary"onClick={()=>scrollToSection('portfolio')}>View Portfolio</button>
         </div>
       </div>
-      <div className="hero-image">
+      {/* <div className="hero-image">
         <img src="" alt="Placeholder" />
-      </div>
+      </div> */}
     </div>
   );
 }
